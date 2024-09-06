@@ -27,14 +27,12 @@ Once the connection is established, you can execute SQL queries using different 
 Compile and Run Queries
 Use the execute() or executeUpdate() methods to run your queries. For example:
 
-java
 
-Statement stmt = connection.createStatement();
-ResultSet rs = stmt.executeQuery("SELECT * FROM users");
+`Statement stmt = connection.createStatement();
+ResultSet rs = stmt.executeQuery("SELECT * FROM users");`
 
 Close the Connection
 It's important to close the connection after completing your operations to free up resources:
 
-java
 
-connection.close();
+`connection.close();`
