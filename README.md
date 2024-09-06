@@ -1,4 +1,4 @@
-###JDBC Overview
+#JDBC Overview
 
 This guide outlines the basic steps to interact with a database using JDBC in Java.
 ##Load the Database Driver
